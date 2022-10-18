@@ -48,10 +48,95 @@ console.log(arr)
 
 >Topics- Get Element By Id, Create Element, Create Text Node, Append Child
 
-### Sample Image
+**Sample Image**
 
 ![Sample One](./Pic4.png)
 
     Tasks: Add another FAQ 'My New FAQ' to the list
 
-### Output
+### Output: 
+
+![newFAQ](./pic4_E.png)
+
+
+**Code Snippet:** 
+
+```js
+const newSec = document.createElement("section");
+let newFaqSec = document.querySelector(".accordion-homepage");
+newFaqSec.appendChild(newSec)
+newSec.className = "parent";
+newSec.id = "new-parent";
+const newHead = document.createElement("h3")
+let textNode = document.createTextNode("My New FAQ");
+newHead.appendChild(textNode);
+let newFaq = document.querySelector("#new-parent");
+newFaq.appendChild(newHead)
+```
+## 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
+
+>Topics:Query Selector, InnerText
+
+### Sample Image
+
+![Sample One](./Pic6.png)
+
+    Tasks:  Change the contact number.
+
+### Output: 
+![contact change](./pic6_E.png)
+
+### Code Snippet:
+
+```js
+let contact = document.querySelector(".service-number");
+contact.innerText = "+91 1234567890";
+```
+
+## 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
+
+
+>TopicsgetElementById, createElement, InnerText, append, setAttribute
+
+    Task: Target the main div of card and change the Button text to Check out
+### Sample Image
+![samsung](./pic7.png)
+
+### Output:
+![o/p](./pic7_E.png)
+
+
+### Code snippet:
+
+```js
+let offers = document.querySelectorAll(".diwali-deals-product-sale-pro-outer")
+let offerLength = offers.length
+let myOffer = offers[offerLength - 1]
+myOffer.getElementsByClassName("diwali-deals-product-sale-btn")[0].innerText = "Check Out"
+```
+
+
+## 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
+
+>Topics: Query Selector, Event listeners, Changing Styles
+
+### Sample Image:
+
+![Sample One](./Pic10.png)
+
+    Tasks: Target the search box and on hover change thebackground color to red.
+
+### Output:
+
+![Output](./Pic11.png)
+
+### Code snippet: 
+```js
+let search = document.querySelector(".searchinput___19uW0")
+search.addEventListener("mouseenter", () => {
+    search.style.backgroundColor = "#ff4d4d";
+})
+search.addEventListener("mouseleave", () => {
+    search.style.backgroundColor = "#ff4d4d";
+})
+```
