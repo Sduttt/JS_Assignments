@@ -8,7 +8,17 @@ let kebabcs = document.getElementById("kebab-case")
 let scrkebabcs = document.getElementById("screaming-kebab-case")
 
 let myname = "";
-cnvrt.addEventListener("click",() => {myname = document.getElementById("text").value.toLowerCase();})
+
+function convert(){
+    myname = document.getElementById("text").value.toLowerCase();
+    camel();
+    pascal();
+    snake();
+    angrysnake();
+    kebab();
+    scrkebab()
+}
+
 
 function camel(){
     let cameltxt = "";
@@ -85,17 +95,4 @@ function scrkebab(){
         else scrkebabtxt = scrkebabtxt + myname[i];
     }
     scrkebabcs.textContent = scrkebabtxt.toUpperCase();
-}
-
-
-
-
-
-function convert(){
-    camel();
-    pascal();
-    snake();
-    angrysnake();
-    kebab();
-    scrkebab()
 }
