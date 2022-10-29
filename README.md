@@ -11,6 +11,11 @@ These are some small questions and challanges on javascript mainly based on theo
 ## **3. Distraction Tracker:**
 This is a simple app that helps you to track how oftenly you distract from your work/study. You can also store the number of times you have distracted in the previous time and then compare with current time, thus improve your performance. Another feature is, it will alert you if you get distracted more oftenly.
 
+**Screenshot:** 
+
+![dist](./Images/distTrack.png)
+
+
 **Source Code:** [Here](./Projects/distraction-tracker/)
 
 **Live link:** [Here](https://disttrack.netlify.app/) 
@@ -20,12 +25,21 @@ This is a simple app that helps you to track how oftenly you distract from your 
 
 This simple project counts how many times you have clicked the button.
 
+**Screenshot:** 
+
+![ctb](./Images/clickDBtn.png)
+
 **Source Code:** [Here](./Projects/1-ClickTheButton/)
 
 **Live link:** [Here](https://click-d-btn.netlify.app/) 
 
 ## **5. Basic Counter:** 
 This is a basic counter that can count a single degit increment and decrement function.
+
+
+**Screenshot:** 
+
+![count](./Images/counter.png)
 
 
 **Source Code:** [Here](./Projects/2-BasicCounter/)
@@ -35,6 +49,12 @@ This is a basic counter that can count a single degit increment and decrement fu
 ## **6. See What You Type:**
 This web app shows the output of what you type in the input textbox in real time.
 
+
+**Screenshot:** 
+
+![rps](./Images/cwyt.png)
+
+
 **Source Code:** [Here](./Projects/3-SeeWhatYouType/)
 
 **Live link:** [Here](https://seewhatyoutyped.netlify.app/)
@@ -43,12 +63,22 @@ This web app shows the output of what you type in the input textbox in real time
 
 In this web app, if you click the button the colour of the box will change into another random colour. 
 
+
+**Screenshot:** 
+
+![rps](./Images/colorChange.png)
+
 **Source Code:** [Here](./Projects/4-ColorChanger/)
 
 **Live link:** [Here](https://pick-random-colour.netlify.app/)
 
 ## **8. Name Conversion:** 
 In this project, I have built a web app that converts any string into Camel Case, Pascal Case:, Snake Case, Screaming Snake Case, Kebab Case and Screaming Kebab Case.
+
+
+**Screenshot:** 
+
+![rps](./Images/formatChanger.png)
 
 **Source Code:** [Here](./Projects/5-NameConversion/)
 
@@ -57,9 +87,26 @@ In this project, I have built a web app that converts any string into Camel Case
 ## **9. Age Calculator:** 
 This web application can calculates your age accurately in Years Months and Days by getting your date of birth.
 
+
+**Screenshot:** 
+
+![rps](./Images/ageCalc.png)
+
+
 **Source Code:** [Here](./Projects/6-Age-Calculator/)
 
 **Live link:** [Here](https://find-age.netlify.app/)
+
+## **9. Rock-Paper-Scissor Game:** 
+This is a classic and very popular game among children. 
+
+**Screenshot:** 
+![rps](./Images/rock-paper-scissor.png)
+
+**Source Code:** [Here](./Projects/7-RockPaperScissor/)
+
+**Live link:** [Here](https://subham-rock-paper-scissor.netlify.app/)
+
 
 <br><br>
 

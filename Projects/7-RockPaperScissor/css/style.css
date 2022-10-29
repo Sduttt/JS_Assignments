@@ -13,7 +13,7 @@
 
 
 header{
-    background-color: #ff6666;
+    background-color: #5B11B0; /*#ff6666;*/
     padding: 2vmin 0;
     font-family: 'Chilanka', cursive;
 }
@@ -21,19 +21,21 @@ header{
 header h1{
     text-align: center;
     font-size: 4em;
+    font-weight: 600;
     color: #c1e7e1;
 }
 
 body{
-    background-color: #4DB380;
+    background-color: #15A6D6;
+     /* #4DB380; */
     font-family: 'Baloo Tamma 2', cursive;
 }
 
 .score-board{
-    color: #fee11a;
+    color: #FCEBBF;/*#fee11a;*/
     text-align: center;
-    font-size: 2.5em;
-    padding: 2vmin;
+    font-size: 2.2em;
+    padding: 1.7vmin;
 }
 
 .score-board .userscore, .score-board .compscore, .score-board span{
@@ -41,6 +43,9 @@ body{
     padding: 0 1vmin;
 }
 
+#result-user-stat, #result-comp-stat  {
+    color: #FCEBBF;
+}
 /* 
 .score-board .userscore{
     position: absolute;
@@ -72,7 +77,7 @@ body{
 #result-final-stat{
     font-weight: bold;
     font-size: 1.5em;
-    color: #47030f;
+    color: #710735/*#47030f*/;
 }
 
 .choices{
@@ -92,8 +97,8 @@ body{
 }
 
 .choice:hover{
-    background-color: #f75555;
-    border: 2px solid #47030f;
+    background-color: #5B11B0 /*#f75555*/;
+    border: 2px solid #710735;
 
 
 }
