@@ -112,9 +112,9 @@ This is a classic and very popular game among children.
 This is a password generator app where users can decide How long password they need and What type of charecters should be included in the password. Also there is a button to copy the password in clipboard.
 
 **Screenshot:** 
-![rps](./Images/pswGen.png)
+![rps](./Images/passGen.png)
 
-**Source Code:** [Here](./Projects/8-PasswordGenerator/)
+**Source Code:** [Here](./Projects/8-password-generator/)
 
 **Live link:** [Here](https://subhamspasswordmaker.netlify.app/)
 
