@@ -108,6 +108,16 @@ This is a classic and very popular game among children.
 **Live link:** [Here](https://subham-rock-paper-scissor.netlify.app/)
 
 
+## **10. Password generator:** 
+This is a password generator app where users can decide How long password they need and What type of charecters should be included in the password. Also there is a button to copy the password in clipboard.
+
+**Screenshot:** 
+![rps](./Images/pswGen.png)
+
+**Source Code:** [Here](./Projects/8-PasswordGenerator/)
+
+**Live link:** [Here](https://subhamspasswordmaker.netlify.app/)
+
 <br><br>
 
 # <center>This list will be updated soon!! </center>
