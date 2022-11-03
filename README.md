@@ -118,6 +118,17 @@ This is a password generator app where users can decide How long password they n
 
 **Live link:** [Here](https://subhamspasswordmaker.netlify.app/)
 
+## **11. TODO App:** 
+This is a TODO app which also has Edit and Delete options on each task.
+
+**Screenshot:** 
+![todo](./Images/todo.png)
+
+**Source Code:** [Here](./Projects/9-Todo/)
+
+**Live link:** [Here](https://subhamstodoapp.netlify.app/)
+
+
 <br><br>
 
 # <center>This list will be updated soon!! </center>
