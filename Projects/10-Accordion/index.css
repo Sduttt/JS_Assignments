@@ -53,3 +53,15 @@
 .hidden {
   display: none;
 }
+.hide{
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: white;
+  margin: 0em;
+  border-radius: 120px;
+  cursor: pointer;
+}

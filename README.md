@@ -128,6 +128,17 @@ This is a TODO app which also has Edit and Delete options on each task.
 
 **Live link:** [Here](https://subhamstodoapp.netlify.app/)
 
+## **12. Accordion:** 
+This is a FAQ page which allows user to view or hide any answer of faq questions by clicking on a button.
+
+**Screenshot:** 
+
+![accord](./Images/accordian.png)
+
+**Source Code:** [Here](./Projects/10-Accordion/)
+
+**Live link:** [Here](https://accord-faq.netlify.app/)
+
 
 <br><br>
 
