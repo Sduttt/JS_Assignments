@@ -139,6 +139,17 @@ This is a FAQ page which allows user to view or hide any answer of faq questions
 
 **Live link:** [Here](https://accord-faq.netlify.app/)
 
+## **12. Binary to Decimal Converter:** 
+This app takes binary number as input and returns it's Decimal value.
+
+**Screenshot:** 
+
+![accord](./Images/binary2dec.png)
+
+**Source Code:** [Here](./Projects/11-Binary2Decimal/)
+
+**Live link:** [Here](https://binary2deci.netlify.app/)
+
 
 <br><br>
 
