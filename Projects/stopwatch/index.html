@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Stopwatch</title>
+</head>
+<body class="bg-gray-200">
+    <div class=" time flex items-center justify-center border-4 p-20 rounded-full w-[450px] h-[450px] border-[#3a50d9] mx-auto shadow1">
+      <span id="min">00</span> : <span id="sec">00</span> : <span id="m-sec"> 00 </span>
+      </div>
+      <div class="mt-12 flex justify-center">
+        <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] shadow1" id="start">START</button>
+        <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] shadow1 hidden" id="stop">STOP</button>
+        <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] shadow1" id="pause">PAUSE</button>
+        <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] hidden shadow1" id="resume">RESUME</button>
+      </div>
+      <script src="./index.js"></script>
+  </body>
+</html>
