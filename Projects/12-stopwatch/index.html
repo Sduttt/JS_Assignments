@@ -8,14 +8,15 @@
     <title>Stopwatch</title>
 </head>
 <body class="bg-gray-200">
-    <div class=" time flex items-center justify-center border-4 p-20 rounded-full w-[450px] h-[450px] border-[#3a50d9] mx-auto shadow1">
+    <div class="text-[80px] sm:text-[100px] time flex items-center justify-center border-4 p-20 rounded-full border-[#3a50d9] mx-auto w-[350px] h-[350px] sm:w-[450px] sm:h-[450px] shadow1">
       <span id="min">00</span> : <span id="sec">00</span> : <span id="m-sec"> 00 </span>
       </div>
       <div class="mt-12 flex justify-center">
         <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] shadow1" id="start">START</button>
-        <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] shadow1 hidden" id="stop">STOP</button>
-        <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] shadow1" id="pause">PAUSE</button>
-        <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] hidden shadow1" id="resume">RESUME</button>
+        <button type="button" class="px-8 mx-2 py-3 font-semibold rounded-full bg-[#242b2e] text-[#e0eff2] border-2 border-[#3a50d9] shadow1" id="reset">RESET</button>
+      </div>
+      <div class="flex justify-center">
+        <p class="mt-[50px] bottom-2 bold">Made with 🖤 by <span class="text-[#3a50d9] italic bold ">Subham Dutta</span></p>
       </div>
       <script src="./index.js"></script>
   </body>

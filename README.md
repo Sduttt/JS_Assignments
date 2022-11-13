@@ -139,16 +139,27 @@ This is a FAQ page which allows user to view or hide any answer of faq questions
 
 **Live link:** [Here](https://accord-faq.netlify.app/)
 
-## **12. Binary to Decimal Converter:** 
+## **13. Binary to Decimal Converter:** 
 This app takes binary number as input and returns it's Decimal value.
 
 **Screenshot:** 
 
-![accord](./Images/binary2dec.png)
+![btdc](./Images/binary2dec.png)
 
 **Source Code:** [Here](./Projects/11-Binary2Decimal/)
 
 **Live link:** [Here](https://binary2deci.netlify.app/)
+
+## **14. Stopwatch:** 
+This is a normal Stopwatch. I have designed th UI of this app and used Tailwind CSS for that.
+
+**Screenshot:** 
+
+![accord](./Images/stopwatch.png)
+
+**Source Code:** [Here](./Projects/12-stopwatch/)
+
+**Live link:** [Here](https://subham-stopwatch.netlify.app/)
 
 
 <br><br>
