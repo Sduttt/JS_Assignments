@@ -13,15 +13,8 @@
       <textarea id="input" cols="30" rows="10" oninput="update()"></textarea>
       <h3>Your Text :</h3>
       <p id="output">Input Box Is Empty... Start Typing</p>
+      <p>Total number of words: <span id="w-count"></span></p>
     </div>
   </body>
-  <script>
-    //code here
-    function update(){
-      let text = document.getElementById("input").value;
-      if(text != ""){
-        document.getElementById("output").textContent = text;
-      }
-    }
-  </script>
+  <script src="./script.js"></script>
 </html>

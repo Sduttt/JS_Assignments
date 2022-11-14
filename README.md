@@ -47,7 +47,7 @@ This is a basic counter that can count a single degit increment and decrement fu
 **Live link:** [Here](https://basicounter.netlify.app/)
 
 ## **6. See What You Type:**
-This web app shows the output of what you type in the input textbox in real time.
+This web app shows the output of what you type in the input textbox in real time. Itcan also count the total number of words in the input textbox.
 
 
 **Screenshot:** 
@@ -151,7 +151,7 @@ This app takes binary number as input and returns it's Decimal value.
 **Live link:** [Here](https://binary2deci.netlify.app/)
 
 ## **14. Stopwatch:** 
-This is a normal Stopwatch. I have designed th UI of this app and used Tailwind CSS for that.
+This is a normal Stopwatch. I have designed th UI of this app and used Tailwind CSS for that. This app is mobile responsive.
 
 **Screenshot:** 
 
@@ -160,6 +160,17 @@ This is a normal Stopwatch. I have designed th UI of this app and used Tailwind 
 **Source Code:** [Here](./Projects/12-stopwatch/)
 
 **Live link:** [Here](https://subham-stopwatch.netlify.app/)
+
+## **15. Calculator:** 
+This is a calculator app built with HTML, CSS, JavaScript.
+
+**Screenshot:** 
+
+![accord](./Images/calc.png)
+
+**Source Code:** [Here](./Projects/13-Calculator/)
+
+**Live link:** [Here](https://jscalc2.netlify.app/)
 
 
 <br><br>
