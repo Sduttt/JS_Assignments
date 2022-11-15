@@ -68,3 +68,18 @@ button:focus {
   outline: none;
   background-color: #5e3370;
 }
+
+.theme{
+  position: absolute;
+  top:20px;
+  right: 20px;
+  background: #50DBB4;
+  color: #5e3370;
+  padding: 5px;
+  border-radius: 5px;
+}
+.themes{
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}

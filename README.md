@@ -155,23 +155,41 @@ This is a normal Stopwatch. I have designed th UI of this app and used Tailwind 
 
 **Screenshot:** 
 
-![accord](./Images/stopwatch.png)
+![stopwatch](./Images/stopwatch.png)
 
 **Source Code:** [Here](./Projects/12-stopwatch/)
 
 **Live link:** [Here](https://subham-stopwatch.netlify.app/)
+
 
 ## **15. Calculator:** 
 This is a calculator app built with HTML, CSS, JavaScript.
 
 **Screenshot:** 
 
-![accord](./Images/calc.png)
+![calc](./Images/calc.png)
 
 **Source Code:** [Here](./Projects/13-Calculator/)
 
 **Live link:** [Here](https://jscalc2.netlify.app/)
 
+
+## **16. Quiz app:** 
+This is a quiz app. The questions and answers will be loaded from the database. After submitting, the app will check your answer with correct answers and will show the score after submitting the last answer. This app also have change theme option. User can switch into dark theme if they wants to.
+
+**Screenshot:** 
+1. Normal theme:
+
+![quiz1](./Images/quiz1.png)
+
+2. Dark Theme:
+
+![quiz1](./Images/quiz2.png)
+
+
+**Source Code:** [Here](./Projects/14-JsQuizApp/)
+
+**Live link:** [Here](https://quiztar.netlify.app/)
 
 <br><br>
 
