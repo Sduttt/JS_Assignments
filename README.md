@@ -191,6 +191,17 @@ This is a quiz app. The questions and answers will be loaded from the database. 
 
 **Live link:** [Here](https://quiztar.netlify.app/)
 
+## **17. Jokes:** 
+This is a rondom jokes app. Every time the webage loads, it will show a new joke. I have used Dad-jokes api from the rapidapi website. This is the first time I have used API.
+
+**Screenshot:** 
+
+![jokes](./Images/joke.png)
+
+**Source Code:** [Here](./Projects/15-JokesGenerator%20API/)
+
+**Live link:** [Here](https://random-jokes-by-dadjokes.netlify.app/)
+
 <br><br>
 
 # <center>This list will be updated soon!! </center>

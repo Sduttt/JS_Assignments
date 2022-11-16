@@ -11,7 +11,7 @@ body{
     width: 35%;
     height: 300px; /* 500px */
     margin: auto;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 .title{
     text-align: center;
@@ -37,7 +37,10 @@ body{
 
 }
 img{
-    margin-top: 40px;
-    margin-left: 35%;
-    display: none;
+    /* margin-top: 40px; */
+    /* margin-left: 35%; */
+    margin: 50px;
+    background: #ffffff;
+
+    /* display: none; */
 }
