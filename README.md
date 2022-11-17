@@ -202,6 +202,17 @@ This is a rondom jokes app. Every time the webage loads, it will show a new joke
 
 **Live link:** [Here](https://random-jokes-by-dadjokes.netlify.app/)
 
+## **18. QR code generator:** 
+This is a QR code generator app. This app can make QR code out of any text. I have used api from the rapidapi website to make this project.
+
+**Screenshot:** 
+
+![jokes](./Images/qr.png)
+
+**Source Code:** [Here](./Projects/16-QRCodeGenerator%20-%20API/)
+
+**Live link:** [Here](https://make-qr.netlify.app/)
+
 <br><br>
 
 # <center>This list will be updated soon!! </center>
