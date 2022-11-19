@@ -213,6 +213,17 @@ This is a QR code generator app. This app can make QR code out of any text. I ha
 
 **Live link:** [Here](https://make-qr.netlify.app/)
 
+## **18. Palindrome Checker:** 
+This is a palindrome checker app. User have to input any text and click on the chjeck button, the app will show if the given text is a palindrome or not.
+
+**Screenshot:** 
+
+![palindrome](./Images/pali.png)
+
+**Source Code:** [Here](./Projects/17-palindromeChaecker/)
+
+**Live link:** [Here](https://ispalindromeornot.netlify.app/)
+
 <br><br>
 
 # <center>This list will be updated soon!! </center>

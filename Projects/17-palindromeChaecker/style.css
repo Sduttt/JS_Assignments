@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, 'sans-serif';
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #23C4ED;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 30px;
+    color: #1f1f1f;
+    margin-bottom: 25px;
+}
+#isPalindrome {
+    height: 15px;
+    border-radius: 5px;
+    margin-top: 2px;
+    font-size: 20px;
+    height: 30px;
+    outline: none;
+}
+.row {
+    margin: 10px;
+    text-align: center;
+}
+.btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.result{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+label{
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
