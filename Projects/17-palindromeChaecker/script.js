@@ -1,6 +1,6 @@
 let result = document.querySelector(".result")
 document.querySelector(".btn").addEventListener("click", () => {
-    let userInput = document.getElementById("isPalindrome").value;
+    let userInput = document.getElementById("isPalindrome").value.toLowerCase();
     let iArr = Array.from(userInput);
 
     let ipArr = iArr.filter((e) => {
