@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Sign Up</title>
+</head>
+<body>
+ <!-- component -->
+<div class="bg-grey-lighter min-h-screen flex flex-col">
+    <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+        <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full" id="signupbox">
+            <h1 class="mb-8 text-3xl text-center">Sign up</h1>
+            <input 
+                type="text"
+                class="block border border-grey-light w-full p-3 rounded mb-4"
+                name="fullname"
+                id="uname"
+                placeholder="User Name" />
+
+            <input 
+                type="email"
+                class="block border border-grey-light w-full p-3 rounded mb-4"
+                name="email"
+                id="email"
+                placeholder="Email" />
+
+            <input 
+                type="password"
+                class="block border border-grey-light w-full p-3 rounded mb-4"
+                name="password"
+                id="password"
+                placeholder="Password" />
+            <input 
+                type="password"
+                class="block border border-grey-light w-full p-3 rounded mb-4"
+                name="confirm_password"
+                id="password2"
+                placeholder="Confirm Password" />
+
+            <button
+                type="submit"
+                id="submit"
+                class="w-full text-center py-3 rounded bg-[#33EEcc] text-white hover:bg-[#55dd99] focus:outline-none my-1"
+            >Create Account</button>
+
+            <div id="warning" class="text-[#dd3322] text-center text-sm"></div>
+        </div>
+    </div>
+</div>
+    </div>
+    <script src="./script.js"></script>
+</div>
+</body>
+</html>

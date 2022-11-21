@@ -224,6 +224,17 @@ This is a palindrome checker app. User have to input any text and click on the c
 
 **Live link:** [Here](https://ispalindromeornot.netlify.app/)
 
+## **19. Sample Signup page:** 
+This is a sample signup page. If user dosen't give proper inputs, it will show appropiate errors. USer must fill all the required fields, username should contail at least 6 charecters, email should be in proper format, password should contail one capital letter, one small letter, one special charecter, one number, and atleast 8 charecters. If user dosen't fullfill this requirements, the form will not be submitted and will show error. If the user gives proper input, a welcome page will be opened.
+
+**Screenshot:** 
+
+![signup](./Images/signup.png)
+
+**Source Code:** [Here](./Projects/18-formValid/)
+
+**Live link:** [Here](https://testsignup.netlify.app/)
+
 <br><br>
 
 # <center>This list will be updated soon!! </center>
