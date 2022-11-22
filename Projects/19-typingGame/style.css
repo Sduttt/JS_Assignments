@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto+Mono&display=swap');
+
+.copyText{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+
+    font-family: 'Roboto Mono', monospace;
+    padding: 30px;
+    margin: 10px;
+    background: hsl(65, 100%, 87%);
+    border-radius: 15px;
+}
+#green{
+    color: green;
+}
+
+body{
+    background-color: #d3e8e8;
+}
+
+#input{
+    width: 95%;
+    height: 200px;
+    margin: 5px 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background: #aee8ff;
+    border: none;
+}
+#input:focus{
+    outline: none;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    color: #114886;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background: #114886;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #114886;
+}
