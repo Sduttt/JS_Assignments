@@ -235,6 +235,19 @@ This is a sample signup page. If user dosen't give proper inputs, it will show a
 
 **Live link:** [Here](https://testsignup.netlify.app/)
 
+
+## **20. Typing Game:** 
+This is a typing test game. User have to copy exactly what is written in the textbox and then click on the "Complete" button. Typing in the input section only be availavail when user clinks on "Start" button and the timer will also start with that. Timer will only stop if user copies exactly what is given and then click on the "Complete" button.
+
+**Screenshot:** 
+
+![typing](./Images/typing.png)
+
+**Source Code:** [Here](./Projects/19-typingGame/)
+
+**Live link:** [Here](https://typingtest-game.netlify.app/)
+
+
 <br><br>
 
 # <center>This list will be updated soon!! </center>

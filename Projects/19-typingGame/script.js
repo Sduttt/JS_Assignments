@@ -2,16 +2,17 @@
 
 let input = document.getElementById("input");
 let text = document.querySelector(".copyText")
-let rules = document.getElementById("rules")
 let start = document.getElementById("start")
 let sec = document.getElementById("sec")
 let min = document.getElementById("minute")
-let green = document.getElementById("green")
 let complete = document.getElementById("complete")
+let result = document.getElementById("result")
 let flag = false;
 let secCounter = 0;
 let minCounter = 0;
 let myInterval;
+
+//Start button Events
 
 start.addEventListener("click", () => {
     input.disabled = false;
@@ -42,11 +43,16 @@ start.addEventListener("click", () => {
 
 })
 
-complete.addEventListener("click", () => {
-    for(i of input.value){
-        if(input.value = text.textContent){
-            alert("done")
-        }
+//Complete button events
 
+complete.addEventListener("click", () => {
+    if(input.value == text.textContent){
+        clearInterval(myInterval);
+        result.innerText = `Congratulations!! You have successfully completed the task in ${min.innerText} minutes and ${sec.innerText} Seconds`
+        result.style.color = "#22DD33"
+    } else {
+        result.innerText = `Please complete your task or check for errors!`
+        result.style.color = "#DD2222"
     }
+
 })
