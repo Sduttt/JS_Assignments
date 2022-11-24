@@ -247,6 +247,17 @@ This is a typing test game. User have to copy exactly what is written in the tex
 
 **Live link:** [Here](https://typingtest-game.netlify.app/)
 
+## **21. Quote generator:** 
+It is a random quote generator app. Everytime the app reloads, it will show a new quote and its authors name. I have used "Quote" api from "Rapidapi.com" to build this app.
+
+**Screenshot:** 
+
+![typing](./Images/quote.png)
+
+**Source Code:** [Here](./Projects/20-randomQuote/)
+
+**Live link:** [Here](https://myquote1234.netlify.app/)
+
 
 <br><br>
 
