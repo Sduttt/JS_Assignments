@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <title>Guess the number</title>
+</head>
+<body>
+    <nav>
+        <h2>Total guess: <span id="tguess"></span></h2>
+        <h2>Right guess: <span id="rguess"></span></h2>
+    </nav>
+    <h1>Guess The correct number:</h1>
+    <div class="main">
+        <input type="number" name="guessed" id="guessed" min="0" max="9" required>
+        <button onclick="check()" class="btn">Check</button>
+    </div>
+    <div class="result"></div>
+</body>
+</html>

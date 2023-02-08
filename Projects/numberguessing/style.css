@@ -1,0 +1,27 @@
+body{
+    background: rgb(201, 228, 233);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+#guessed{
+    font-size: 20px;
+    border-radius: 8px;
+    width: 70px;
+}
+.btn{
+    border-radius: 8px;
+    background-color: #23e0d0;
+    color: #333;
+    font-weight: 800;
+    margin: 0 5px;
+}

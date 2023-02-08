@@ -270,6 +270,16 @@ Whenever user clicks in any place of the web page, an alphabet appears there ran
 **Live link:** [Here](https://onclickeffect.netlify.app/)
 
 
+## **23. Number guessing game:** 
+In this game, using `Math.random()` we are taking a random number as reference and user have to guess that number. Once they guess the right number, the number will be changed. The counters on the top keeps track of total attempts and total success counts.
+
+**Screenshot:** 
+
+![numberguess](./Images/number.png)
+
+**Source Code:** [Here](./Projects/numberguessing/)
+
+**Live link:** [Here](https://guessdnumber.netlify.app/)
 <br><br>
 
 # <center>This list will be updated soon!! </center>
