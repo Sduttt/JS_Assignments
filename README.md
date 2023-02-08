@@ -258,6 +258,17 @@ It is a random quote generator app. Everytime the app reloads, it will show a ne
 
 **Live link:** [Here](https://myquote1234.netlify.app/)
 
+## **22. On click effect:** 
+Whenever user clicks in any place of the web page, an alphabet appears there randomly with any random color and it stays for 3 seconds.
+
+**Screenshot:** 
+
+![onClick](./Images/click.gif)
+
+**Source Code:** [Here](./Projects/onClick/)
+
+**Live link:** [Here](https://onclickeffect.netlify.app/)
+
 
 <br><br>
 
